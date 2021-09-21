@@ -1,0 +1,39 @@
+.day-picker {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.react-calendar__viewContainer {
+  flex: 1 1 0%;
+}
+
+.react-calendar__month-view, .react-calendar__month-view > div, .react-calendar__month-view > div > div {
+  height: 100%;
+}
+
+.react-calendar__month-view > div > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.react-calendar__month-view__days {
+  flex: 1 1 0%;
+}
+
+.day-picker__day--non-empty > abbr {
+  display: inline-block;
+  box-sizing: content-box;
+  padding: 4px;
+  min-width: 24px;
+  min-height: 24px;
+  line-height: 24px;
+  border-radius: 50%;
+  background-color: var(--bg-color-theme);
+  color: white;
+}
+
+.react-calendar__tile--now {
+  background: #ededed;
+}
